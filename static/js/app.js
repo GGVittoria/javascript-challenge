@@ -35,8 +35,6 @@ tableData.forEach((alients) => {
 
 }
 
-
-
 //function to invoke on selection of an item from dropdown
 filterType.on("change", function() {
     var filterValue = filterType.property("value");
@@ -65,8 +63,7 @@ filterType.on("change", function() {
     d3.select("label")
       .attr("for",filterValue)
       .text(`Enter a value for  ${filterValue.toUpperCase()}`);
-
-    
+ 
 });
 
 // Function to invoke on clicking the filter button
@@ -111,8 +108,6 @@ submit.on("click", function() {
                 cell.text(value);
             });
         });
-
-
 
 })
 
