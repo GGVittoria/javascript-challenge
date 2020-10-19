@@ -13,3 +13,4 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 Level 1: Automatic Table and Date Search (Required)
 
+Level 2: Multiple Search Categories (Optional)
